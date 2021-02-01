@@ -1,0 +1,181 @@
+<div class="flex-container">
+    <div>
+        <img src="assets/Images/BackgroundImgBeyondTopNavbar.svg" alt="circle" class="backgroundImgBeyondTheTopNavbar">
+    </div>
+    <div>
+        <mat-toolbar class="topNavbar">
+            <img src="assets/Images/OpenFinancialTechnologiesLogo.png" alt="OpenFinancialTechnologies">
+            <div class="topNavbarElements">
+                <span>Products</span>
+                <span>Solutions</span>
+                <span>Pricing</span>
+                <button mat-flat-button class="loginBtn" style="color: rebeccapurple;">Login</button>
+                <button mat-flat-button style="border-radius: 20px;background-color: rebeccapurple;color: white;">Get
+                    Started</button>
+            </div>
+        </mat-toolbar>
+    </div>
+    <div>
+        <img src="assets/Images/BackgroundImgBeyondTopNavbar.svg" alt="circle" class="smallCircle">
+    </div>
+    <div>
+        <img src="assets/Images/collect_img-video.png" alt="Bussiness" class="collectImg">
+    </div>
+    <div>
+        <img src="assets/Images/We make it Super Sim.svg" alt="We make it Super Sim" class="superSimpleText">
+    </div>
+    <div>
+        <img src="assets/Images/Line 3.svg" alt="Line" class="LineImg">
+    </div>
+    <div>
+        <img src="assets/Images/accounting_dots.svg" alt="Dots" class="dotsImg">
+    </div>
+    <div>
+        <mat-card class="EligibilityCalculator">
+            <mat-card-header>
+                <mat-card-title style="margin-left: 33px;">Eligibility Calculator</mat-card-title>
+            </mat-card-header>
+            <mat-card-actions>
+                <form>
+                    <div class="monthlyIncomeField">
+                        <span>Monthly Income</span>
+                        <span style="font-weight: bold;">₹ {{gridsize.value}} </span>
+                        <mat-slider class="average" #gridsize (change)="updateSetting($event)" step="1" min="0" max="300000" [value]="gridsize"></mat-slider>
+                        <div class="minandmaxvalue">
+                            <p class="minvalue">₹ 1,00,000
+                            <p>
+                            <p class="maxvalue">₹ 3,00,000</p>
+                        </div>
+                    </div>
+                    <div class="monthlyExpense">
+                        <span>Monthly Expense</span>
+                        <span style="font-weight: bold;">₹ {{monthlyExpensesize.value}} </span>
+                        <mat-slider class="average" #monthlyExpensesize (change)="updateMonthlyExpenseSize($event)" step="1" min="0" max="300000" [value]="monthlyExpensesize"></mat-slider>
+                    </div>
+                    <div class="repaymentfield">
+                        <mat-form-field>
+                            <mat-label>Repayment Tenure</mat-label>
+                            <mat-select>
+                                <mat-option value="1 Month">1 Months</mat-option>
+                                <mat-option value="2 Month">2 Months</mat-option>
+                                <mat-option value="3 Month">3 Months</mat-option>
+                                <mat-option value="4 Month">4 Months</mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                    </div>
+                    <div class="existingLoansField">
+                        <span>Do you have any existing loans?</span>
+                        <mat-slide-toggle></mat-slide-toggle>
+                    </div>
+                    <div class="emiInput">
+                        <mat-form-field>
+                            <mat-label>EMI of existing loan optional</mat-label>
+                            <input matInput>
+                        </mat-form-field>
+                    </div>
+                </form>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    <div>
+        <mat-card class="totalAmountSection">
+            <mat-card-header></mat-card-header>
+            <mat-card-content>
+                <form>
+                    <div class="loanText">Loan Amount</div>
+                    <span style="margin-left: 19px;color: white;">₹ 1,00,000</span>
+                    <div style="margin-left: 19px;margin-top: 6px;color: white;">Your EMI will be</div>
+                    <div style="margin-left: 19px;color: white;">₹ 15,000</div>
+                    <div>
+                        <button mat-flat-button style="border-radius: 20px;color: rebeccapurple;margin-left: 13px;margin-top: 8px;">GET MONEY</button>
+                    </div>
+                </form>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <div>
+        <img src="assets/Images/accounting_dots.svg" alt="Dots" class="dotsImgBeyondLoanSection">
+    </div>
+
+    <div>
+        <img src="assets/Images/sol_wave_bg.svg" alt="slowwave" class="sloveWaveImg">
+    </div>
+    <div>
+        <img src="assets/Images/Rectangle Copy 17.svg" alt="Rectangle" class="RectangleCopyImg17">
+    </div>
+    <div>
+        <img src="assets/Images/Get Paid Instantly.png" alt="Get Paid Instantly" class="getPaidInstantlyImg">
+    </div>
+    <div>
+        <img src="assets/Images/Quick cash disbursem.svg" alt="quickCashDistribution" class="quickCashDistributionImg">
+    </div>
+    <div>
+        <img src="assets/Images/Get terms loans that.svg" alt="getTermsLoan" class="getTermsLoanImg">
+    </div>
+    <div>
+        <img src="assets/Images/Rectangle Copy 17.svg" alt="Rectangle" class="RectangleCopyLowIntImg">
+    </div>
+    <div>
+        <img src="assets/Images/Rectangle Copy 17.svg" alt="Rectangle" class="RectangleCopyLowIntImg">
+    </div>
+    <div>
+        <img src="assets/Images/Low interest rate.png" alt="Lowinterestrate" class="LowinterestrateImg">
+    </div>
+    <div>
+        <img src="assets/Images/Low-interest rate.svg" alt="Lowinterestrate" class="LowinterestrateTextImg">
+    </div>
+    <div>
+        <img src="assets/Images/Achieve your financi.svg" alt="Achieve your financial goal" class="AchieveyourfinImg">
+    </div>
+    <div>
+        <img src="assets/Images/Rectangle Copy 17.svg" alt="Rectangle" class="RectangleCopyZeroWorkImg">
+    </div>
+    <div>
+        <img src="assets/Images/Secure Payments.png" alt="Secure Payments" class="SecurePaymentsImg">
+    </div>
+    <div>
+        <img src="assets/Images/Zero Paperwork.svg" alt="Zero Paperwork" class="ZeroPaperworkTextImg">
+    </div>
+    <div>
+        <img src="assets/Images/Get started instantl.svg" alt="Get started instantl.svg"
+            class="GetstartedinstantlTextImg">
+    </div>
+    <div>
+        <img src="assets/Images/Rectangle Copy 17.svg" alt="Rectangle" class="RectangleCopyCovidImg">
+    </div>
+    <div>
+        <img src="assets/Images/Covid.png" alt="Covid" class="CovidImg">
+    </div>
+    <div>
+        <img src="assets/Images/Loans to fight COVID.svg" alt="Loans to fight COVID" class="LoansTofightCovidtextImg">
+    </div>
+    <div>
+        <img src="assets/Images/Zero EMI for first 3.svg" alt="Zero EMI for first 3" class="ZeroEMIforfirst3Img">
+    </div>
+    <div>
+        <img src="assets/Images/Rectangle 2.svg" alt="Rectangle" class="Rectangle2Img">
+    </div>
+    <div>
+        <img src="assets/Images/freelancer_feature_icon_6@1.5x.png" alt="freelancer_feature_icon_6@1.5x"
+            class="freelancer_feature_iconImg">
+    </div>
+    <div>
+        <img src="assets/Images/Ace your business fi.svg" alt="Ace your business fi" class="AceyourbusinessfiImg">
+    </div>
+    <div>
+        <img src="assets/Images/Manage banking, acco.svg" alt="Manage banking, acco" class="ManagebankingaccoImg">
+    </div>
+    <div>
+        <img src="assets/Images/Boost your business.svg" alt="Boost your business" class="BoostyourbusinessImg">
+    </div>
+    <div>
+        <img src="assets/Images/Line 3.svg" alt="Line" class="LineImg2">
+    </div>
+    <div>
+        <img src="assets/Images/Get your hands on a.svg" alt="Get your hands on" class="GetyourHandsOnImg">
+    </div>
+    <div>
+        <button mat-flat-button style="border-radius: 20px;color: rebeccapurple;" class="getanopenaccImg">Get Open
+            Account</button>
+    </div>
+</div>

@@ -1,0 +1,300 @@
+.flex-container {
+    display: flex;
+    background-color: whitesmoke;
+    height: 1384px;
+    width: 1080px;
+    overflow: hidden;
+  }
+  .topNavbar{
+    height: 90px;
+    margin-left: -1148px;
+    background-color: none;
+    width: 1081px;
+    margin-top: 0px;
+    position: fixed;
+    overflow: hidden;
+    
+  }
+  .openFinTecImg{
+    background-color: white;
+    margin-top: 27px;
+    margin-left:  -1111px;;
+}
+
+  .backgroundImgBeyondTheTopNavbar{
+    transform: rotate(159deg);
+    margin-left: 478px;
+    margin-top: -85px;
+    height: 668px;
+  }
+
+  span + span {
+    margin-left: 20px;
+}
+
+button + button {
+    margin-left: 20px;
+}
+
+span + button{
+    margin-left: 20px;
+}
+
+.topNavbarElements{
+    margin-left: 444px;
+   cursor: pointer;
+}
+
+.loginBtn{
+    color:purple;
+    border-radius: 20px;
+}
+
+.smallCircle{
+    height: 371px;
+    margin-left: -1224px;
+    margin-top: 218px;
+}
+
+.collectImg{
+    margin-left: -1015px;
+    margin-top: 431px;
+    height: 198px;
+}
+
+.superSimpleText{
+    margin-left: -1009px;
+    margin-top: 270px;
+}
+
+.LineImg{
+    margin-left: -1009px;
+    margin-top: 372px;
+
+}
+
+.dotsImg{
+    margin-left: -841px;
+    margin-top: 610px;
+    width: 216px;
+}
+
+.EligibilityCalculator{
+    max-width: 261px;
+    margin-left: -584px;
+    margin-top: 256px;
+    height: 367px;
+    overflow: hidden;
+}
+
+.totalAmountSection{
+    max-width: 200px;
+    margin-top: 322px;
+    height: 203px;
+    margin-left: -290px;
+    width: 122px;
+    background-color: rebeccapurple;
+    overflow: hidden;
+}
+
+.totalAmountItems{
+
+}
+.loanText{
+    margin-top: 58px;
+    margin-left: 19px;
+    color: white;
+}
+
+
+.dotsImgBeyondLoanSection{
+    margin-left: -347px;
+    margin-top: 647px;
+    width: 228px;
+}
+
+.sloveWaveImg{
+    height: 557px;
+    margin-left: -1144px;
+    margin-top: 801px;
+}
+
+.RectangleCopyImg17{
+    height: 251px;
+    margin-left: -993px;
+    margin-top:  678px;
+}
+
+.getPaidInstantlyImg{
+    height: 52px;
+    margin-left: -944px;
+    margin-top: 738px;
+}
+
+.quickCashDistributionImg{
+    margin-left: -944px;
+    margin-top: 811px;
+}
+
+.getTermsLoanImg{
+    margin-left: -943px;
+    margin-top: 844px;
+}
+
+.RectangleCopyLowIntImg{
+    height: 251px;
+    margin-left: -993px;
+    margin-top: 900px;
+}
+
+.LowinterestrateImg{
+    height: 52px;
+    margin-left: -940px;
+    margin-top: 959px;
+}
+
+.LowinterestrateTextImg{
+    margin-left: -940px;
+    margin-top: 1030px;
+}
+
+.AchieveyourfinImg{
+    margin-left: -940px;
+    margin-top: 1055px;
+}
+
+.RectangleCopyZeroWorkImg{
+    height: 251px;
+    margin-left: -993px;
+    margin-top: 1126px;
+}
+.SecurePaymentsImg{
+    height: 52px;
+    margin-left: -944px;
+    margin-top: 1187px;
+}
+
+.ZeroPaperworkTextImg{
+    margin-left: -944px;
+    margin-top: 1259px;
+}
+
+.GetstartedinstantlTextImg{
+    margin-left: -944px;
+    margin-top: 1293px;
+}
+
+.RectangleCopyCovidImg{
+    height: 251px;
+    margin-left: -665px;
+    margin-top: 995px;
+}
+
+.CovidImg{
+    height: 52px;
+    margin-left: -610px;
+    margin-top: 1058px;
+}
+
+.LoansTofightCovidtextImg{
+    margin-left: -610px;
+    margin-top: 1127px;
+}
+
+.ZeroEMIforfirst3Img{
+    margin-left: -610px;
+    margin-top: 1167px;
+}
+
+.Rectangle2Img{
+    height: 251px;
+    margin-left: -665px;
+    margin-top: 764px;
+}
+.freelancer_feature_iconImg{
+    height: 51px;
+    margin-left: -605px;
+    margin-top: 824px;
+}
+.AceyourbusinessfiImg{
+    margin-left: -619px;
+    margin-top: 887px;
+}
+
+.ManagebankingaccoImg{
+    margin-left: -622px;
+    margin-top: 921px;
+}
+
+.BoostyourbusinessImg{
+    margin-left: -338px;
+    margin-top: 920px;
+    height: 42px;
+}
+
+.LineImg2{
+    margin-left: -338px;
+    margin-top: 973px;
+}
+.GetyourHandsOnImg{
+    margin-left: -338px;
+    margin-top: 1000px;
+    height: 29px;
+}
+
+.getanopenaccImg{
+    margin-left: -338px;
+    margin-top: 1069px;
+}
+
+mat-slider {
+    width: 226px;
+    margin-top: 2px;
+  }
+  .monthlyIncomeField{
+    margin-left: 27px;
+    margin-top: 10px;
+}
+.minandmaxvalue{
+    margin-top: -15px;
+    margin-left: 6px;
+}
+.minvalue{
+
+}
+.maxvalue{
+    margin-left: 148px;
+    margin-top: -30px;
+}
+
+:host ::ng-deep .average .mat-slider-thumb  {
+    background-color:  rebeccapurple;
+  }
+
+  :host ::ng-deep .average .mat-slider-track-fill {
+    background-color:rebeccapurple;
+  }
+
+  .monthlyExpense{
+    margin-top: 17px;
+    margin-left: 27px;
+  }
+  
+  .repaymentfield{
+    margin-left: 28px;
+    margin-top: 9px;
+  }
+  ::ng-deep .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-bar {
+    background-color: rebeccapurple;  
+}
+  ::ng-deep .mat-slide-toggle.mat-checked:not(.mat-disabled) .mat-slide-toggle-thumb {
+    background-color: rebeccapurple;
+}
+.existingLoansField{
+    margin-left: 26px;
+}
+
+.emiInput{
+    margin-left: 29px;
+    margin-top: 10px;
+}
